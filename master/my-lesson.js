@@ -2,7 +2,7 @@
 
 // TODO 1 : Create a varible called welcome message
 
-var welcomemessage = "Choose Your ____";
+var welcomemessage = "";
 console.log(welcomemessage);
 
 // TODO 2 : Create a varible called person
@@ -25,6 +25,6 @@ console.log("status: " + person.status);
 
 // TODO 5 : Create a function that prints the firstname lasntname and status of your player along with a quote 
 person.sayHello = function () { 
-  console.log("Hulk smash!");
+  console.log("");
 }
 person.sayHello();
