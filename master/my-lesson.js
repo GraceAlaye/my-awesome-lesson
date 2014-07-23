@@ -23,7 +23,7 @@ console.log("Last Name: " + person.lastName);
 person["status"] = " ";
 console.log("status: " + person.status); 
 
-// TODO 5 : Create a function that prints the firstname lasntname and status of your player along with a quote 
+// TODO 5 : Create a function that prints a quote of the character 
 person.sayHello = function () { 
   console.log("");
 }
