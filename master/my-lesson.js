@@ -2,8 +2,8 @@
 
 // TODO 1 : Create a varible called welcome message
 
-var welcomemessage = "Marvel vs DC Universe ";
-console.log(welcomemessage);
+var welcomeMessage = "Marvel vs DC Universe ";
+console.log(welcomeMessage);
 
 // TODO 2 : Create a varible called person
 
@@ -24,7 +24,7 @@ person["status"] = "The Hulk ";
 console.log("status: " + person.status); 
 
 // TODO 5 : Create a function that prints a quote of the character 
-person.sayHello = function () { 
+person.Speak = function () { 
   console.log("Hulk Smash");
 }
-person.sayHello();
+person.Speak();
