@@ -26,8 +26,8 @@ This is how you format code:
 #!/usr/bin/env node
 
 // TODO 1 : Create a variable called welcome message 
-var welcomemessage = "";
-console.log(welcomemessage);
+var welcomeMessage = "";
+console.log(welcomeMessage);
 ```
 ** TODO 2 :** Here you will create a person. This is our player and later on you'll get to name your person.
 
@@ -67,10 +67,10 @@ Go try it and complete your app!
 ```javascript
 #!/usr/bin/env node
 // TODO 5 : Create a function that prints a quote of the character 
-person.sayHello = function () { 
+person.Speak= function () { 
   console.log("");
 }
-person.sayHello();
+person.Speak();
 ```
 .
 
