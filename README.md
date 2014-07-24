@@ -14,34 +14,33 @@ Create a new node app, and from the terminal, enter or cut and paste the followi
 Great, you're set to roll!
 
 
-# This is How You Format A Title
 
-**This will format bold text**
 
-Here is an example of how to setup a step for your lesson.  Describe the concept you want your students to learn, show them examples in code (see the javascript format markup, below), and try to describe the concept a few different ways, comparing the concept to more common situations.  Next, create a TODO step, where the student must add a piece of code to the app, for example:
+**TODO 1 :** Here, you will create a variable called welcome message and name it after your favorite video game. 
+In this step this is the first thing that will be displayed.
 
-**TODO 1 :** Here, you will create a variable called welcome message and name it after your favorite video game
+
 
 This is how you format code:
 ```javascript
 #!/usr/bin/env node
 
-// TODO 1 : Create a variable called welcome message
-
+// TODO 1 : Create a variable called welcome message 
 var welcomemessage = "";
 console.log(welcomemessage);
 ```
-** TODO 2 :** Here you will create a person. 
+** TODO 2 :** Here you will create a person. This is our player and later on you'll get to name your person.
+
 ```javascript
 #!/usr/bin/env node
 
-// TODO 2 : Create a varible called person
+// TODO 2 : Create a varible called person. 
 
 var person = {};   
 console.log(person); 
 ```
 
-**TODO 3 :**  Now let us give it some idenity! 
+**TODO 3 :**  Now let us give it some idenity! In this step we are going to add a fisrt and last name to our player.
 ```javascript
 #!/usr/bin/env node
 // TODO 3 : Add firsname and lastname properites to your player
@@ -52,7 +51,8 @@ console.log("First Name: " + person.firstName);
 console.log("Last Name: " + person.lastName);
 ```
 
-** TODO 4 :** lets give our player a cool status, what are they known as 
+** TODO 4 :** lets give our player a cool status, what are they known as. In this step we are going to just throw in a 
+cool status for our player and this will print out what they are commonly known as.
 ```javascript
 #!/usr/bin/env node 
 
@@ -61,7 +61,9 @@ console.log("Last Name: " + person.lastName);
 person["status"] = " ";
 console.log("status: " + person.status); 
 ```
-** TODO 5 :** Lets give our character a awesome quote, so we just say what they always say. A slogan of sorts. 
+** TODO 5 :** Lets give our character an awesome quote, so we just say what they always say. A slogan of sorts.
+In this step  we are just adding  a quote to our player. After we complete this step it will print out all of our information .
+Go try it and complete your app!
 ```javascript
 #!/usr/bin/env node
 // TODO 5 : Create a function that prints a quote of the character 
